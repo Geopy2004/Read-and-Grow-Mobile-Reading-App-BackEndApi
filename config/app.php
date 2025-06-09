@@ -65,7 +65,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'timezone' => 'UTC',
+=======
+'timezone' => 'Asia/Manila',
+>>>>>>> 131317a (Initial commit of Read-and-Grow backend)
 
     /*
     |--------------------------------------------------------------------------

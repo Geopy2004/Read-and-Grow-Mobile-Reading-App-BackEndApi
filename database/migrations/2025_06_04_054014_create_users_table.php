@@ -5,13 +5,17 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration {
+<<<<<<< HEAD
     /**
      * Run the migrations.
      */
+=======
+>>>>>>> 131317a (Initial commit of Read-and-Grow backend)
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
+<<<<<<< HEAD
 
             // Common fields
             $table->string('username')->unique();
@@ -41,6 +45,15 @@ return new class extends Migration {
     /**
      * Reverse the migrations.
      */
+=======
+            $table->string('username')->unique();
+            $table->string('password');
+            $table->enum('role', ['admin', 'teacher', 'student']);
+            $table->timestamps();
+        });
+    }
+
+>>>>>>> 131317a (Initial commit of Read-and-Grow backend)
     public function down(): void
     {
         Schema::dropIfExists('users');

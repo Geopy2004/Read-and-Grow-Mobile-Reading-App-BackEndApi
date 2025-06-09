@@ -8,7 +8,11 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
+<<<<<<< HEAD
         "laravel/sanctum": "^4.0",
+=======
+        "laravel/sanctum": "^4.1",
+>>>>>>> 131317a (Initial commit of Read-and-Grow backend)
         "laravel/tinker": "^2.10.1"
     },
     "require-dev": {
